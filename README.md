@@ -35,7 +35,7 @@ To run the executable:
 
 ### Option 2: Running from Source
 
-## Installing Python on Windows
+#### Installing Python on Windows
 
 1. Download Python:
    - Go to [Python Downloads](https://www.python.org/downloads/)
@@ -47,7 +47,7 @@ To run the executable:
    - Type: `python --version`
    - Should show Python version number
 
-## Installing Required Dependencies
+#### Installing Required Dependencies
 
 1. Open Command Prompt and run:
 ```bash
