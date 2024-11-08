@@ -31,8 +31,8 @@ To run the executable:
 
 ## Installation
 
-### Option 1: Running the Executable (Windows)
-1. Download the `WSJT-X_QRZ_Lookup.exe` from the releases page
+### Option 1: Running the Executable (Windows 11)
+1. Download the `wsjt-qrz-gui.exe` from the [releases page](https://github.com/boriskauffmann/wsjt2hamclock/releases/tag/v0.1.0}
 2. Place it in any directory
 3. Run the executable
 
