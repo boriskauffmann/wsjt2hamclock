@@ -1,6 +1,6 @@
 # WSJT-X/JTDX to HamClock DX Interface
 
-![image](https://github.com/user-attachments/assets/c107ba01-ec67-4341-aa87-ead2e2367391)
+![image](https://github.com/user-attachments/assets/6fdef135-ff61-4b06-9dc3-f6551a2b21ea)
 
 
 This Python application provides an interface between WSJT-X/JTDX and HamClock, automatically looking up callsigns grids at QRZ.com and updating DX information on HamClock. Created by PY2UBK.
