@@ -3,17 +3,14 @@
 ![image](https://github.com/user-attachments/assets/c107ba01-ec67-4341-aa87-ead2e2367391)
 
 
-This Python application provides an interface between WSJT-X/JTDX and HamClock, automatically looking up callsigns on QRZ.com and updating DX information on HamClock. Created by PY2UBK.
+This Python application provides an interface between WSJT-X/JTDX and HamClock, automatically looking up callsigns grids at QRZ.com and updating DX information on HamClock. Created by PY2UBK.
 
 ## Features
 
 - Real-time monitoring of WSJT-X/JTDX UDP messages
 - Automatic callsign lookup via QRZ.com XML API
 - Integration with HamClock for grid square updates
-- UTC time display
 - Configurable settings with persistent storage
-- User-friendly GUI interface
-- Message history with scrollable view
 
 ## Requirements
 
@@ -32,17 +29,37 @@ To run the executable:
 ## Installation
 
 ### Option 1: Running the Executable (Windows 11)
-1. Download the `wsjt-qrz-gui.exe` from the [releases page](https://github.com/boriskauffmann/wsjt2hamclock/releases/tag/v0.1.0}
+1. Download the `wsjt-qrz-gui.exe` from the [releases page](https://github.com/boriskauffmann/wsjt2hamclock/releases/tag/v0.1.0)
 2. Place it in any directory
 3. Run the executable
 
 ### Option 2: Running from Source
-1. Clone this repository or download the source code
-2. Install required dependency:
+
+## Installing Python on Windows
+
+1. Download Python:
+   - Go to [Python Downloads](https://www.python.org/downloads/)
+   - Click "Download Python 3.11" (or latest version)
+   - Important: Check "Add Python.exe to PATH" during installation!
+
+2. Verify Installation:
+   - Open Command Prompt (Windows+R, type "cmd", press Enter)
+   - Type: `python --version`
+   - Should show Python version number
+
+## Installing Required Dependencies
+
+1. Open Command Prompt and run:
 ```bash
 pip install requests
 ```
-3. Run the application:
+2. Download the source code "wsjt_qrz_gui.py"
+   
+3. Install required dependency:
+```bash
+pip install requests
+```
+4. Run the application:
 ```bash
 python wsjt_qrz_gui.py
 ```
